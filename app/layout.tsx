@@ -1,4 +1,5 @@
 import "./globals.css";
+import Header from "../components/Header";
 
 export const metadata = {
   title: "Everything Now",
@@ -8,8 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex items-center justify-center">
-        {children}
+      <body className="min-h-screen bg-black text-white">
+        <Header />
+        <div className="pt-24 px-6">{children}</div>
       </body>
     </html>
   );
