@@ -3,6 +3,7 @@ import Header from "../components/header";
 
 
 
+
 export const metadata = {
   title: "Everything Now",
   description: "The best platform ever"
