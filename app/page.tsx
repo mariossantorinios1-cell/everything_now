@@ -1,5 +1,6 @@
-import VideoCard from "@/components/cards/videocard";
-import ImagesCard from "@/components/cards/imagescard";
+import VideoCard from "../components/cards/videocard";
+import ImagesCard from "../components/cards/imagescard";
+
 
 export default function Home() {
   return (
