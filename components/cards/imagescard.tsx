@@ -1,12 +1,8 @@
-"use client";
-
-export default function ImageCard({ title, src }) {
+export default function ImagesCard() {
   return (
-    <div className="rounded-2xl overflow-hidden bg-white/5 border border-white/10 hover:scale-[1.02] transition-all cursor-pointer">
-      <img src={src} className="w-full h-64 object-cover" />
-      <div className="p-3 text-center text-white text-lg font-medium">
-        {title}
-      </div>
+    <div className="p-4 border rounded-lg shadow">
+      <h2 className="text-lg font-bold">Images Card</h2>
+      <p>Coming soon...</p>
     </div>
   );
 }
