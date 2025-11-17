@@ -1,17 +1,17 @@
 import "./globals.css";
-import Header from "../components/Header";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "Everything Now",
-  description: "The ultimate social platform",
+  description: "The best platform ever"
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-black text-white">
+      <body>
         <Header />
-        <div className="pt-24 px-6">{children}</div>
+        {children}
       </body>
     </html>
   );
